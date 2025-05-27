@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionnel présentant mon travail, mes compétences et mon expérience">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Changer le thème">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+    </button>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo">Portfolio</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#veille">Veille</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-text">
+                    <h1>Bonjour, je suis BOUGHERARA Safi</h1>
+                    <p class="profession">Développeur</p>
+                    <p class="hero-description">APIs, bases de données, full stack et modélisation technique</p>
+                    <div class="hero-buttons">
+                        <a href="https://www.linkedin.com/in/safi-bougherara-18336127a/" class="cta-button">Mon LinkedIn</a>
+                        <a href="assets/curriculum_vitae_SB.pdf" class="cta-button secondary" download>Télécharger CV</a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
+                    <img src="img/profile.jpg" alt="Professional headshot" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 data-aos="fade-up">À Propos de Moi</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>Je suis un développeur full stack passionné. Avec une formation en BTS SIO SLAM, j'apporte créativité et compétences techniques à chaque projet.</p>
+                    <div class="experience-grid">
+                        <div class="experience-item">
+                            <span class="number">BTS</span>
+                            <span class="label">SIO SLAM - Cybersécurité & Programmation <br> 2023/2025</span>
+                        </div>
+                        <div class="experience-item">
+                            <span class="number">Alternance</span>
+                            <span class="label">2+ ans chez Smart Global Governance</span>
+                        </div>
+                        <div class="experience-item">
+                            <span class="number">Bachelor</span>
+                            <span class="label">Bachelor Concepteur développeur d'applications <br> 2025/2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills" data-aos="fade-left">
+                    <h3>Compétences Techniques</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MYSQL</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JAVA</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PYTHON</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PHP</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">API REST</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects" data-aos="fade-up">
+        <div class="container">
+            <h2>Exemples de Projets Scolaires</h2>
+            <div class="featured-projects">
+                <!-- Project 1 -->
+                <div class="project-showcase" data-aos="fade-up">
+                    <div class="project-header">
+                        <h3>Sandstorm Marketplace 🌪️</h3>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">TWIG</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">MVC</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            <p>Une plateforme de marketplace moderne, construite avec PHP 8.2+ et MySQL, suivant le modèle MVC. Sandstorm permet aux utilisateurs d’acheter et de vendre des articles dans diverses catégories via une interface responsive et agréable.</p>
+                            <ul class="project-features">
+                                <li>Authentification et profils utilisateurs</li>
+                                <li>Recherche et filtrage des produits</li>
+                                <li>Traitement sécurisé des données</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/SafiBougherara/Sandstorm_onlinecode" class="button"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-gallery">
+                            <div class="gallery-grid">
+                                <img src="img/project2/dashboard.jpg" alt="Task dashboard" class="gallery-item">
+                                <img src="img/project2/tasks.jpg" alt="Task list" class="gallery-item">
+                                <img src="img/project2/reports.jpg" alt="Analytics dashboard" class="gallery-item">
+                                <img src="img/project2/calendar.jpg" alt="Calendar view" class="gallery-item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-showcase" data-aos="fade-up">
+                    <div class="project-header">
+                        <h3>Coachify 🏋️‍♂️</h3>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">JavaFX</span>
+                            <span class="tag">SCENE BUILDER</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            <p>Coachify est une application JavaFX conçue pour les coachs sportifs et les salles de sport. Elle permet de gérer efficacement les clients et leurs exercices, tout en offrant une interface intuitive et un stockage sécurisé des données.</p>
+                            <ul class="project-features">
+                                <li>Gestion des clients</li>
+                                <li>Gestion des exercices</li>
+                                <li>Stockage sécurisé des données</li>
+                                <li>Interface intuitive</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/SafiBougherara/Coachify" class="button"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-gallery">
+                            <div class="gallery-grid">
+                                <img src="img/project1/main.jpg" alt="E-commerce main page" class="gallery-item">
+                                <img src="img/project1/products.jpg" alt="Products page" class="gallery-item">
+                                <img src="img/project1/cart.jpg" alt="Shopping cart" class="gallery-item">
+                                <img src="img/project1/admin.jpg" alt="Admin dashboard" class="gallery-item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-showcase" data-aos="fade-up">
+                    <div class="project-header">
+                        <h3>Brocéliande Immobilier 🏢</h3>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            <p>Le projet Broceliande est un site web immobilier développé en PHP, permettant aux utilisateurs de publier, consulter et gérer des annonces de biens immobiliers.</p>
+                            <ul class="project-features">
+                                <li>Gestion des annonces</li>
+                                <li>Gestion des utilisateurs</li>
+                                <li>Stockage sécurisé des données</li>
+                                <li>Interface intuitive</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/SafiBougherara/Broceliande" class="button"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-gallery">
+                            <div class="gallery-grid">
+                                <img src="img/project4/laby.jpg" alt="Platform homepage" class="gallery-item">
+                                <img src="img/project4/course.jpg" alt="Course view" class="gallery-item">
+                                <img src="img/project4/exercise.jpg" alt="Interactive exercise" class="gallery-item">
+                                <img src="img/project4/progress.jpg" alt="Progress tracking" class="gallery-item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-showcase" data-aos="fade-up">
+                    <div class="project-header">
+                        <h3>LABYRINTH 📜</h3>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">Matrices</span>
+                            <span class="tag">Algorithme</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            <p>Ce projet est un jeu de labyrinthe développé en PHP et HTML. Le joueur contrôle un personnage qui doit naviguer dans un labyrinthe, collecter des objets et atteindre la sortie. Le jeu utilise une matrice pour représenter le terrain et gère les déplacements en fonction des touches pressées</p>
+                            <ul class="project-features">
+                                <li>Navigation dans une matrice</li>
+                                <li>Algorithme de d'etection et d'actualisation des éléments</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/SafiBougherara/Labyrinth" class="button"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-gallery">
+                            <div class="gallery-grid">
+                                <img src="img/project3/laby.jpg" alt="Platform homepage" class="gallery-item">
+                                <img src="img/project3/course.jpg" alt="Course view" class="gallery-item">
+                                <img src="img/project3/exercise.jpg" alt="Interactive exercise" class="gallery-item">
+                                <img src="img/project3/progress.jpg" alt="Progress tracking" class="gallery-item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="veille" class="veille-technologique" data-aos="fade-up">
+        <div class="container">
+            <br>
+            <h2 style="text-align: center;">Veille Technologique</h2>
+            <br>
+            <div class="veille-grid">
+                <!-- Veille Item 1 : IA dans la Programmation -->
+                <div class="project-showcase" data-aos="fade-up">
+                    <div class="project-header">
+                        <h3>Intelligence Artificielle dans la Programmation</h3>
+                        <div class="project-tags">
+                            <span class="tag">IA</span>
+                            <span class="tag">Code Assisté</span>
+                            <span class="tag">Développement</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            <p>Exploration des outils et techniques basés sur l’IA qui révolutionnent la manière dont les développeurs écrivent, testent et maintiennent le code.</p>
+                            <ul class="project-features">
+                                <li>Assistants de codage comme GitHub Copilot</li>
+                                <li>Génération automatique de code</li>
+                                <li>Débogage assisté par IA</li>
+                                <li>Optimisation du code et refactorisation intelligente</li>
+                            </ul>
+                            <!--
+                            <div class="project-links">
+                                <a href="#" class="button">Lire l'Analyse</a>
+                                <a href="#" class="button">Sources</a>
+                                <a href="#" class="button">Ressources</a>
+                            </div>-->
+                        </div>
+                        <div class="project-gallery">
+                            <div class="gallery-grid">
+                                <img src="img/veille/code/ai-code1.jpg" alt="IA Coding Assistant" class="gallery-item2">
+                                <img src="img/veille/code/ai-code2.jpg" alt="Code Generator" class="gallery-item2">
+                                <img src="img/veille/code/ai-code3.jpg" alt="Debugging with AI" class="gallery-item2">
+                                <img src="img/veille/code/ai-code4.jpg" alt="Smart Refactoring" class="gallery-item2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Veille Item 2 : IA dans la Cybersécurité -->
+                <div class="project-showcase" data-aos="fade-up">
+                    <div class="project-header">
+                        <h3>Intelligence Artificielle dans la Cybersécurité</h3>
+                        <div class="project-tags">
+                            <span class="tag">IA</span>
+                            <span class="tag">Cybersécurité</span>
+                            <span class="tag">Détection de Menaces</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            <p>Analyse de l'utilisation de l'intelligence artificielle pour anticiper, détecter et contrer les cybermenaces de plus en plus sophistiquées.</p>
+                            <ul class="project-features">
+                                <li>Systèmes de détection d'intrusion basés sur l'IA</li>
+                                <li>Analyse comportementale en temps réel</li>
+                                <li>Réponse automatisée aux incidents</li>
+                                <li>Prévention proactive des attaques</li>
+                            </ul>
+                            <!--
+                            <div class="project-links">
+                                <a href="#" class="button">Lire l'Analyse</a>
+                                <a href="#" class="button">Sources</a>
+                                <a href="#" class="button">Ressources</a>
+                            </div>-->
+                        </div>
+                        <div class="project-gallery">
+                            <div class="gallery-grid">
+                                <img src="img/veille/cyber/ai-cyber1.jpg" alt="AI Threat Detection" class="gallery-item2">
+                                <img src="img/veille/cyber/ai-cyber2.jpg" alt="Behavioral Analysis" class="gallery-item2">
+                                <img src="img/veille/cyber/ai-cyber3.jpg" alt="Automated Incident Response" class="gallery-item2">
+                                <img src="img/veille/cyber/ai-cyber4.jpg" alt="Cyber Threat Prevention" class="gallery-item2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+    </section>
+    
+
+    <section id="projects" class="projects" data-aos="fade-up">
+        <div class="container">
+            <h2>Exemples de Projets Professionnels</h2>
+            <div class="featured-projects">
+                <!-- Project 1 -->
+                <div class="project-showcase" data-aos="fade-up">
+                    <div class="project-header">
+                        <h3>Excel Filler Finance App 📊</h3>
+                        <div class="project-tags">
+                            <span class="tag">PYTHON</span>
+                            <span class="tag">MICROSOFT AZURE</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            <p>Function App Azure permettant la générations de journaux de ventes à destination des actionnaires</p>
+                            <ul class="project-features">
+                                <li>Automatisation des processus</li>
+                                <li>Intégration avec Excel</li>
+                                <li>Réstitution sécurisée des données</li>
+                                <li>Accessibilité via le navigateur</li>
+                                <li>Authentification utilisateur via Microsoft Azure</li>
+                            </ul>
+                        </div>
+                        <div class="project-gallery">
+                            <div class="gallery-grid">
+                                <img src="img/pro1/pro1_A.jpg" alt="Task dashboard" class="gallery-item">
+                                <img src="img/pro1/pro1_B.jpg" alt="Task list" class="gallery-item">
+                                <img src="img/pro1/pro1_C.jpg" alt="Analytics dashboard" class="gallery-item">
+                                <img src="img/pro1/pro1_D.jpg" alt="Calendar view" class="gallery-item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-showcase" data-aos="fade-up">
+                    <div class="project-header">
+                        <h3>Routes API Gen_Control_Doc 📊</h3>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">JavaFX</span>
+                            <span class="tag">SCENE BUILDER</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            <p>Deux routes permettent de récupérer la documentation de contrôle.
+                                Si elle n'existe pas, une IA la génère en s'appuyant sur des pré-prompts, des modèles définis et des données liées au contrôle, puis l'ajoute au conteneur dédié.
+                                
+                                Ainsi, plus les utilisateurs en font la demande, plus la restitution s'accélère : un document déjà généré est immédiatement disponible (~3 sec contre ~20 sec pour une première génération) </p>
+                            <ul class="project-features">
+                                <li>Routes API</li>
+                                <li>Implementable dans les differentes solutions <br>du catalogue de l'entreprise</li>
+                            </ul>
+                        </div>
+                        <div class="project-gallery">
+                            <div class="gallery-grid">
+                                <img src="img/pro2/pro2_A.jpg" alt="E-commerce main page" class="gallery-item">
+                                <img src="img/pro2/pro2_B.jpg" alt="Products page" class="gallery-item">
+                                <img src="img/pro2/pro2_C.jpg" alt="Shopping cart" class="gallery-item">
+                                <img src="img/pro2/pro2_D.jpg" alt="Admin dashboard" class="gallery-item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-showcase" data-aos="fade-up">
+                    <div class="project-header">
+                        <h3>AnswerWritter Backend </h3>
+                        <div class="project-tags">
+                            <span class="tag">PYTHON</span>
+                            <span class="tag">MICROSOFT AZURE</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description">
+                            <p>Function App Azure permettant servant de backend pour AnswerWritter</p>
+                            <ul class="project-features">
+                                <li>
+                                    - Routes créées : <br>
+                                    [GET][POST][PUT][DELETE] DOCUMENTS<br>
+                                    [GET][POST][PUT][DELETE] DIRECTORY<br>
+                                    [PUT]DOCUMENTS MOVE TO DIRECTORY <br>
+                                    [POST] CALL BACK STATUS<br>
+                                </li>
+                                <li>
+                                    - Routes de travail collaboratif : <br>
+                                    [GET][PUT][DELETE] ACCOUNT<br>
+                                    [PUT][POST]PROJECT<br>
+                                    [GET][POST]PROJECT/REQUIREMENTS<br>
+                                    [PUT][POST]PASSWORD<br>
+                                    [POST]LOGIN
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="project-gallery">
+                            <div class="gallery-grid">
+                                <img src="img/pro3/pro3_A.jpg" alt="Task dashboard" class="gallery-item">
+                                <img src="img/pro3/pro3_B.jpg" alt="Task list" class="gallery-item">
+                                <img src="img/pro3/pro3_C.jpg" alt="Analytics dashboard" class="gallery-item">
+                                <img src="img/pro3/pro3_D.jpg" alt="Calendar view" class="gallery-item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Me Contacter</h2>
+            <div class="contact-content">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Envoyer le Message</button>
+                </form>
+                <div class="social-links">
+                    <h3>Suivez-moi</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <!--
+    <section id="blog" class="blog">
+        <div class="container" data-aos="fade-up">
+            <h2>Derniers Articles</h2>
+            <div class="blog-grid">
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-image">
+                        <img src="img/blog1.jpg" alt="Blog post 1">
+                        <div class="blog-date">May 20, 2025</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Tendances du Développement Web Moderne</h3>
+                        <p>Exploration des dernières tendances et technologies du développement web moderne...</p>
+                        <a href="#" class="read-more">Lire la Suite</a>
+                    </div>
+                </article>
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="img/blog2.jpg" alt="Blog post 2">
+                        <div class="blog-date">May 15, 2025</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Principes de Design UI/UX</h3>
+                        <p>Principes essentiels pour créer des interfaces conviviales...</p>
+                        <a href="#" class="read-more">Lire la Suite</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>BOUGHERARA Safi</h3>
+                    <p>Web Developer & Designer</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À Propos</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                        <li><a href="#veille">Veille</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Informations de Contact</h4>
+                    <p><i class="fas fa-envelope"></i> bougherarasafi@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +6 ** ** ** **</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BOUGHERARA Safi. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
